@@ -1,7 +1,11 @@
-# QCAD-cheat-sheets
+# QCAD Cheat Sheets
 
-Download the "Modify" cheat sheet here: [`Download Link`](https://github.com/EvokeMadness/QCAD-cheat-sheets/releases/latest/download/QCAD-cheat-sheets-modify.pdf)
+Download the cheat sheet here: [`Download Link`](https://github.com/EvokeMadness/QCAD-cheat-sheets/releases/latest/download/QCAD-cheat-sheet.pdf)
+
+Download the snaps cheat sheet here: [`Download Link`](https://github.com/EvokeMadness/QCAD-cheat-sheets/releases/latest/download/QCAD-cheat-sheets-snaps.pdf)
 
 ## Document Preview:
 
-![](assets/preview-QCAD-cheat-sheets-modify.png)
+![](assets/preview-QCAD-cheat-sheet.png)
+
+![](assets/preview-QCAD-cheat-sheets-snaps.png)

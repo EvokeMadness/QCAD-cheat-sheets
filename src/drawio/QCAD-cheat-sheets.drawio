@@ -1,0 +1,804 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.6 Chrome/144.0.7559.236 Electron/40.8.4 Safari/537.36" pages="8">
+  <diagram id="h9rloI4aKlMIdOmK8b0y" name="Favorites">
+    <mxGraphModel dx="1885" dy="1093" grid="0" gridSize="25" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="MtP3eqDM6xanCb5_8MUe-0" />
+        <mxCell id="MtP3eqDM6xanCb5_8MUe-1" parent="MtP3eqDM6xanCb5_8MUe-0" />
+        <mxCell id="OtL55k_dqBrxH2FtzpX3-3" parent="MtP3eqDM6xanCb5_8MUe-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Modify/Mirror/Mirror.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;fontSize=19;spacingLeft=20;fontFamily=Helvetica;imageBackground=#FFFFFF;imageBorder=#FF0000;" value="Mirror (MI)" vertex="1">
+          <mxGeometry height="50" width="50" x="450" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="OtL55k_dqBrxH2FtzpX3-4" parent="MtP3eqDM6xanCb5_8MUe-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Modify/Offset/Offset.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;fontSize=19;spacingLeft=20;fontFamily=Helvetica;imageBackground=#FFFFFF;" value="Offset (OF)&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 255);&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;{Distance} {Number}&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="50" x="450" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="OtL55k_dqBrxH2FtzpX3-5" parent="MtP3eqDM6xanCb5_8MUe-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Modify/Trim/Trim.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;fontSize=19;spacingLeft=20;fontFamily=Helvetica;imageBackground=#FFFFFF;" value="Trim (RM)" vertex="1">
+          <mxGeometry height="50" width="50" x="450" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="OtL55k_dqBrxH2FtzpX3-7" parent="MtP3eqDM6xanCb5_8MUe-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Modify/Lengthen/Lengthen.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;fontSize=19;spacingLeft=20;fontFamily=Helvetica;imageBackground=#FFFFFF;" value="Lengthen / Shorten (LE)&lt;br&gt;&lt;font style=&quot;font-size: 14px; color: rgb(0, 0, 255);&quot;&gt;{Amount}&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="50" x="450" y="475" as="geometry" />
+        </mxCell>
+        <mxCell id="OtL55k_dqBrxH2FtzpX3-8" parent="MtP3eqDM6xanCb5_8MUe-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Modify/Stretch/Stretch.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;fontSize=19;spacingLeft=20;fontFamily=Helvetica;imageBackground=#FFFFFF;" value="Stretch (SS)" vertex="1">
+          <mxGeometry height="50" width="50" x="450" y="325" as="geometry" />
+        </mxCell>
+        <mxCell id="prDNmbzN7yBEwX4fTQ4g-0" edge="1" parent="MtP3eqDM6xanCb5_8MUe-1" style="endArrow=none;html=1;rounded=0;fontSize=24;strokeColor=default;strokeWidth=2;fontFamily=Helvetica;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="425" y="1025" as="sourcePoint" />
+            <mxPoint x="425" y="125" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zVtTAECYahXYI1TU1-zq-0" parent="MtP3eqDM6xanCb5_8MUe-1" style="swimlane;labelBackgroundColor=none;labelBorderColor=none;fontFamily=Helvetica;fontSize=18;strokeColor=default;fillColor=#B3B3B3;align=center;verticalAlign=middle;html=1;swimlaneFillColor=default;fontStyle=0;collapsible=0;fontColor=#000000;resizable=1;dropTarget=0;strokeWidth=1;" value="Tip" vertex="1">
+          <mxGeometry height="175" width="350" x="450" y="825" as="geometry">
+            <mxRectangle height="25" width="225" x="500" y="225" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5zifaB7vFxgYHRfK9UMi-0" parent="MtP3eqDM6xanCb5_8MUe-1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;glass=0;labelBackgroundColor=none;labelBorderColor=none;fontFamily=Helvetica;fontSize=14;fontColor=default;labelPosition=center;verticalLabelPosition=middle;spacingLeft=20;spacingBottom=0;spacingRight=20;spacingTop=5;" value="&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;• Commands styled with a red border require entities to be selected before each use.&lt;br&gt;&lt;br&gt;• Commands with options display their properties in blue. The first option is immediately in focus after the command is invoked.&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="325" x="450" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="UnXEWMEneizT5aLam48p-0" parent="MtP3eqDM6xanCb5_8MUe-1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBorderColor=none;sketch=0;fontColor=#B3B3B3;labelPosition=center;verticalLabelPosition=middle;fontSize=72;fontStyle=1;spacingTop=10;spacingLeft=0;spacingBottom=20;spacingRight=20;" value="&lt;font&gt;!&lt;/font&gt;" vertex="1">
+          <mxGeometry height="75" width="50" x="750" y="925" as="geometry" />
+        </mxCell>
+        <object label="Version 1.3.0 | Updated for QCAD 3.28.2" id="1IEy7v7ouOXHzIfAseH2-0">
+          <mxCell parent="MtP3eqDM6xanCb5_8MUe-1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=default;fontFamily=Helvetica;fontSize=14;connectable=0;allowArrows=0;rotatable=0;" vertex="1">
+            <mxGeometry height="25" width="375" x="50" y="1050" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="pWm-BIYI_7lUkaQrtfi3-3" parent="MtP3eqDM6xanCb5_8MUe-1" style="rounded=0;whiteSpace=wrap;fillColor=#2D427B;rotatable=0;connectable=0;allowArrows=0;strokeColor=none;fontFamily=Helvetica;fontColor=#FFFFFF;textShadow=0;shadow=0;fontSize=41;spacingBottom=0;verticalAlign=middle;" value="QCAD Cheat Sheets: Basic Commands" vertex="1">
+          <mxGeometry height="100" width="850" as="geometry" />
+        </mxCell>
+        <mxCell id="R8nysQFm3VQp02_69V8v-0" parent="MtP3eqDM6xanCb5_8MUe-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Modify/Bevel/Bevel.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;fontSize=19;spacingLeft=20;fontFamily=Helvetica;imageBackground=#FFFFFF;" value="Chamfer / Bevel (CH)&lt;br&gt;&lt;font style=&quot;font-size: 14px; color: rgb(0, 0, 255);&quot;&gt;{Length 1} {Length 2}&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="50" x="450" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="R8nysQFm3VQp02_69V8v-1" parent="MtP3eqDM6xanCb5_8MUe-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Modify/Round/Round.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;fontSize=19;spacingLeft=20;fontFamily=Helvetica;imageBackground=#FFFFFF;" value="Round (RN)&lt;br&gt;&lt;font style=&quot;font-size: 14px; color: rgb(0, 0, 255);&quot;&gt;{Radius}&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="50" x="450" y="625" as="geometry" />
+        </mxCell>
+        <mxCell id="LfxPuPAV0GjcxyePn8-X-0" parent="MtP3eqDM6xanCb5_8MUe-1" style="rounded=0;whiteSpace=wrap;html=1;connectable=0;allowArrows=0;resizable=0;rotatable=0;fillColor=#B3B3B3;fontSize=18;align=left;spacingLeft=25;spacingRight=25;fontColor=#000000;" value="Modify" vertex="1">
+          <mxGeometry height="25" width="350" x="450" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="DAy4WVFSO6LpJvZrhDNq-0" parent="MtP3eqDM6xanCb5_8MUe-1" style="rounded=0;whiteSpace=wrap;html=1;connectable=0;allowArrows=0;resizable=0;rotatable=0;fillColor=#B3B3B3;fontSize=18;align=left;spacingLeft=25;spacingRight=25;fontColor=#000000;" value="Draw" vertex="1">
+          <mxGeometry height="25" width="350" x="50" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="DAy4WVFSO6LpJvZrhDNq-1" parent="MtP3eqDM6xanCb5_8MUe-1" style="rounded=0;whiteSpace=wrap;html=1;connectable=0;allowArrows=0;resizable=0;rotatable=0;fillColor=#B3B3B3;fontSize=18;align=left;spacingLeft=25;spacingRight=25;fontColor=#000000;" value="Dimension" vertex="1">
+          <mxGeometry height="25" width="350" x="50" y="775" as="geometry" />
+        </mxCell>
+        <mxCell id="z-JLGx-xKInw34CrFKCG-0" parent="MtP3eqDM6xanCb5_8MUe-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Draw/Line/Line2P/Line2P.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Line from 2 Points (LI)" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="z-JLGx-xKInw34CrFKCG-1" parent="MtP3eqDM6xanCb5_8MUe-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Draw/Line/LineHorizontal/LineHorizontal.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Horizontal Line (LH)&lt;br&gt;&lt;font style=&quot;font-size: 14px; color: rgb(0, 0, 255);&quot;&gt;{Length}&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="z-JLGx-xKInw34CrFKCG-2" parent="MtP3eqDM6xanCb5_8MUe-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Draw/Line/LineVertical/LineVertical.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Vertical Line (LV)&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 255);&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;{Length}&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="325" as="geometry" />
+        </mxCell>
+        <mxCell id="z-JLGx-xKInw34CrFKCG-3" parent="MtP3eqDM6xanCb5_8MUe-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Draw/Polyline/DrawPolyline/DrawPolyline.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Draw Polyline (PL)" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="z-JLGx-xKInw34CrFKCG-4" parent="MtP3eqDM6xanCb5_8MUe-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Draw/Shape/ShapeRectanglePP/ShapeRectanglePP.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Rectangle (RE)" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="475" as="geometry" />
+        </mxCell>
+        <mxCell id="z-JLGx-xKInw34CrFKCG-5" parent="MtP3eqDM6xanCb5_8MUe-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Draw/Arc/ArcCPA/ArcCPA.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Arc (AR)" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="z-JLGx-xKInw34CrFKCG-6" parent="MtP3eqDM6xanCb5_8MUe-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Draw/Circle/CircleCP/CircleCP.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Circle (CI)" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="625" as="geometry" />
+        </mxCell>
+        <mxCell id="z-JLGx-xKInw34CrFKCG-7" parent="MtP3eqDM6xanCb5_8MUe-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Draw/Ellipse/EllipseCPP/EllipseCPP.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Ellipse (EP)" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="dg8Au6oIrbTgJq2aNBG4-0" parent="MtP3eqDM6xanCb5_8MUe-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Draw/Dimension/DimAligned/DimAligned.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Aligned (DA)" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="825" as="geometry" />
+        </mxCell>
+        <mxCell id="dg8Au6oIrbTgJq2aNBG4-1" parent="MtP3eqDM6xanCb5_8MUe-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Draw/Dimension/DimHorizontal/DimHorizontal.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Horizontal (DH)" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="dg8Au6oIrbTgJq2aNBG4-2" parent="MtP3eqDM6xanCb5_8MUe-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Draw/Dimension/DimVertical/DimVertical.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Vertical (DV)" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="975" as="geometry" />
+        </mxCell>
+        <mxCell id="5ObpNGMoDiglvf47UAOe-0" parent="MtP3eqDM6xanCb5_8MUe-1" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=default;fontFamily=Helvetica;fontSize=14;connectable=0;allowArrows=0;rotatable=0;" value="© 2026 EvokeMadness CC BY-SA 4.0" vertex="1">
+          <mxGeometry height="25" width="300" x="425" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="5ObpNGMoDiglvf47UAOe-1" parent="MtP3eqDM6xanCb5_8MUe-1" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=default;fontFamily=Helvetica;fontSize=14;connectable=0;allowArrows=0;rotatable=0;" value="1/6" vertex="1">
+          <mxGeometry height="25" width="75" x="725" y="1050" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Draw" id="LciNWfTbs8pMR3Jmnqum">
+    <mxGraphModel dx="471" dy="273" grid="0" gridSize="25" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="IOOQQ3ExY7Bdt8x3luNd-0" />
+        <mxCell id="IOOQQ3ExY7Bdt8x3luNd-1" parent="IOOQQ3ExY7Bdt8x3luNd-0" />
+        <mxCell id="IOOQQ3ExY7Bdt8x3luNd-2" parent="IOOQQ3ExY7Bdt8x3luNd-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Draw/Line/Line2P/Line2P.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Line from 2 Points (LI)" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="IOOQQ3ExY7Bdt8x3luNd-18" edge="1" parent="IOOQQ3ExY7Bdt8x3luNd-1" style="endArrow=none;html=1;rounded=0;fontSize=24;strokeColor=default;strokeWidth=2;fontFamily=Helvetica;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="425" y="1025" as="sourcePoint" />
+            <mxPoint x="425" y="125" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IOOQQ3ExY7Bdt8x3luNd-19" parent="IOOQQ3ExY7Bdt8x3luNd-1" style="swimlane;labelBackgroundColor=none;labelBorderColor=none;fontFamily=Helvetica;fontSize=18;strokeColor=default;fillColor=#B3B3B3;align=center;verticalAlign=middle;html=1;swimlaneFillColor=default;fontStyle=0;collapsible=0;fontColor=#000000;resizable=1;dropTarget=0;strokeWidth=1;" value="Tip" vertex="1">
+          <mxGeometry height="175" width="350" x="450" y="825" as="geometry">
+            <mxRectangle height="25" width="225" x="500" y="225" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IOOQQ3ExY7Bdt8x3luNd-21" parent="IOOQQ3ExY7Bdt8x3luNd-1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBorderColor=none;sketch=0;fontColor=#B3B3B3;labelPosition=center;verticalLabelPosition=middle;fontSize=72;fontStyle=1;spacingTop=10;spacingLeft=0;spacingBottom=20;spacingRight=20;" value="&lt;font&gt;!&lt;/font&gt;" vertex="1">
+          <mxGeometry height="75" width="50" x="750" y="925" as="geometry" />
+        </mxCell>
+        <object label="Version 1.3.0 | Updated for QCAD 3.28.2" id="IOOQQ3ExY7Bdt8x3luNd-22">
+          <mxCell parent="IOOQQ3ExY7Bdt8x3luNd-1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=default;fontFamily=Helvetica;fontSize=14;connectable=0;allowArrows=0;rotatable=0;" vertex="1">
+            <mxGeometry height="25" width="375" x="50" y="1050" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="IOOQQ3ExY7Bdt8x3luNd-24" parent="IOOQQ3ExY7Bdt8x3luNd-1" style="rounded=0;whiteSpace=wrap;fillColor=#2D427B;rotatable=0;connectable=0;allowArrows=0;strokeColor=none;fontFamily=Helvetica;fontColor=#FFFFFF;textShadow=0;shadow=0;fontSize=51;spacingBottom=0;verticalAlign=middle;" value="QCAD Cheat Sheets: Draw" vertex="1">
+          <mxGeometry height="100" width="850" as="geometry" />
+        </mxCell>
+        <mxCell id="OVCC1T3leraqG1yv4PI_-0" parent="IOOQQ3ExY7Bdt8x3luNd-1" style="rounded=0;whiteSpace=wrap;html=1;connectable=0;allowArrows=0;resizable=0;rotatable=0;fillColor=#B3B3B3;fontSize=18;align=left;spacingLeft=25;spacingRight=25;fontColor=#000000;" value="Line" vertex="1">
+          <mxGeometry height="25" width="350" x="50" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="k4pR0icoIit3uqWUn9gj-0" parent="IOOQQ3ExY7Bdt8x3luNd-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Draw/Line/LineAngle/LineAngle.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Line from Angle (LA)&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 255);&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;{Angle} {Length}&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="k4pR0icoIit3uqWUn9gj-1" parent="IOOQQ3ExY7Bdt8x3luNd-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Draw/Line/LineHorizontal/LineHorizontal.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Horizontal Line (LH)&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 255);&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;{Length}&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="325" as="geometry" />
+        </mxCell>
+        <mxCell id="k4pR0icoIit3uqWUn9gj-2" parent="IOOQQ3ExY7Bdt8x3luNd-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Draw/Line/LineVertical/LineVertical.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Vertical Line (LV)&lt;br&gt;&lt;font style=&quot;font-size: 14px; color: rgb(0, 0, 255);&quot;&gt;{Length}&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="k4pR0icoIit3uqWUn9gj-3" parent="IOOQQ3ExY7Bdt8x3luNd-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Draw/Polyline/DrawPolyline/DrawPolyline.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Draw Polyline (PL)" vertex="1">
+          <mxGeometry height="50" width="50" x="450" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="k4pR0icoIit3uqWUn9gj-4" parent="IOOQQ3ExY7Bdt8x3luNd-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Draw/Shape/ShapeRectanglePP/ShapeRectanglePP.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Rectangle (RE)" vertex="1">
+          <mxGeometry height="50" width="50" x="450" y="425" as="geometry" />
+        </mxCell>
+        <mxCell id="k4pR0icoIit3uqWUn9gj-5" parent="IOOQQ3ExY7Bdt8x3luNd-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Draw/Shape/ShapeRectangleSize/ShapeRectangleSize.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Rectangle with Size (RS)" vertex="1">
+          <mxGeometry height="50" width="50" x="450" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="k4pR0icoIit3uqWUn9gj-7" parent="IOOQQ3ExY7Bdt8x3luNd-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Draw/Arc/ArcCPA/ArcCPA.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Arc (AR)" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="k4pR0icoIit3uqWUn9gj-8" parent="IOOQQ3ExY7Bdt8x3luNd-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Draw/Circle/CircleCP/CircleCP.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Circle (CI)" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="k4pR0icoIit3uqWUn9gj-9" parent="IOOQQ3ExY7Bdt8x3luNd-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Draw/Spline/SplineControlPoints/SplineControlPoints.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Spline (SP)" vertex="1">
+          <mxGeometry height="50" width="50" x="450" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="k4pR0icoIit3uqWUn9gj-10" parent="IOOQQ3ExY7Bdt8x3luNd-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Draw/Ellipse/EllipseCPP/EllipseCPP.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Ellipse (EP)" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="775" as="geometry" />
+        </mxCell>
+        <mxCell id="k4pR0icoIit3uqWUn9gj-11" parent="IOOQQ3ExY7Bdt8x3luNd-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Draw/Ellipse/EllipseArcCPPA/EllipseArcCPPA.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Ellipse Arc (EA)" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="k4pR0icoIit3uqWUn9gj-12" parent="IOOQQ3ExY7Bdt8x3luNd-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Draw/Hatch/HatchFromSelection/HatchFromSelection.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=#FF0000;" value="Hatch (HA)" vertex="1">
+          <mxGeometry height="50" width="50" x="450" y="625" as="geometry" />
+        </mxCell>
+        <mxCell id="k4pR0icoIit3uqWUn9gj-13" parent="IOOQQ3ExY7Bdt8x3luNd-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Draw/Text/Text.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Text (TE)" vertex="1">
+          <mxGeometry height="50" width="50" x="450" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="k4pR0icoIit3uqWUn9gj-16" parent="IOOQQ3ExY7Bdt8x3luNd-1" style="rounded=0;whiteSpace=wrap;html=1;connectable=0;allowArrows=0;resizable=0;rotatable=0;fillColor=#B3B3B3;fontSize=18;align=left;spacingLeft=25;spacingRight=25;fontColor=#000000;" value="Polyline" vertex="1">
+          <mxGeometry height="25" width="350" x="450" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="k4pR0icoIit3uqWUn9gj-17" parent="IOOQQ3ExY7Bdt8x3luNd-1" style="rounded=0;whiteSpace=wrap;html=1;connectable=0;allowArrows=0;resizable=0;rotatable=0;fillColor=#B3B3B3;fontSize=18;align=left;spacingLeft=25;spacingRight=25;fontColor=#000000;" value="Shape" vertex="1">
+          <mxGeometry height="25" width="350" x="450" y="375" as="geometry" />
+        </mxCell>
+        <mxCell id="k4pR0icoIit3uqWUn9gj-18" parent="IOOQQ3ExY7Bdt8x3luNd-1" style="rounded=0;whiteSpace=wrap;html=1;connectable=0;allowArrows=0;resizable=0;rotatable=0;fillColor=#B3B3B3;fontSize=18;align=left;spacingLeft=25;spacingRight=25;fontColor=#000000;" value="Arc" vertex="1">
+          <mxGeometry height="25" width="350" x="50" y="475" as="geometry" />
+        </mxCell>
+        <mxCell id="k4pR0icoIit3uqWUn9gj-19" parent="IOOQQ3ExY7Bdt8x3luNd-1" style="rounded=0;whiteSpace=wrap;html=1;connectable=0;allowArrows=0;resizable=0;rotatable=0;fillColor=#B3B3B3;fontSize=18;align=left;spacingLeft=25;spacingRight=25;fontColor=#000000;" value="Circle" vertex="1">
+          <mxGeometry height="25" width="350" x="50" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="k4pR0icoIit3uqWUn9gj-20" parent="IOOQQ3ExY7Bdt8x3luNd-1" style="rounded=0;whiteSpace=wrap;html=1;connectable=0;allowArrows=0;resizable=0;rotatable=0;fillColor=#B3B3B3;fontSize=18;align=left;spacingLeft=25;spacingRight=25;fontColor=#000000;" value="Spline" vertex="1">
+          <mxGeometry height="25" width="350" x="450" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="k4pR0icoIit3uqWUn9gj-21" parent="IOOQQ3ExY7Bdt8x3luNd-1" style="rounded=0;whiteSpace=wrap;html=1;connectable=0;allowArrows=0;resizable=0;rotatable=0;fillColor=#B3B3B3;fontSize=18;align=left;spacingLeft=25;spacingRight=25;fontColor=#000000;" value="Ellipse" vertex="1">
+          <mxGeometry height="25" width="350" x="50" y="725" as="geometry" />
+        </mxCell>
+        <mxCell id="k4pR0icoIit3uqWUn9gj-22" parent="IOOQQ3ExY7Bdt8x3luNd-1" style="rounded=0;whiteSpace=wrap;html=1;connectable=0;allowArrows=0;resizable=0;rotatable=0;fillColor=#B3B3B3;fontSize=18;align=left;spacingLeft=25;spacingRight=25;fontColor=#000000;" value="Hatch" vertex="1">
+          <mxGeometry height="25" width="350" x="450" y="575" as="geometry" />
+        </mxCell>
+        <mxCell id="k4pR0icoIit3uqWUn9gj-23" parent="IOOQQ3ExY7Bdt8x3luNd-1" style="rounded=0;whiteSpace=wrap;html=1;connectable=0;allowArrows=0;resizable=0;rotatable=0;fillColor=#B3B3B3;fontSize=18;align=left;spacingLeft=25;spacingRight=25;fontColor=#000000;" value="Draw" vertex="1">
+          <mxGeometry height="25" width="350" x="450" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="DZ-rEJVJG-EZjie2_Byv-0" parent="IOOQQ3ExY7Bdt8x3luNd-1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;glass=0;labelBackgroundColor=none;labelBorderColor=none;fontFamily=Helvetica;fontSize=14;fontColor=default;labelPosition=center;verticalLabelPosition=middle;spacingLeft=20;spacingBottom=0;spacingRight=20;spacingTop=5;" value="&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;• Commands styled with a red border require entities to be selected before each use.&lt;br&gt;&lt;br&gt;• Commands with options display their properties in blue. The first option is immediately in focus after the command is invoked.&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="325" x="450" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="tXx1PksqRB5m1V_7baFE-0" parent="IOOQQ3ExY7Bdt8x3luNd-1" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=default;fontFamily=Helvetica;fontSize=14;connectable=0;allowArrows=0;rotatable=0;" value="© 2026 EvokeMadness CC BY-SA 4.0" vertex="1">
+          <mxGeometry height="25" width="300" x="425" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="tXx1PksqRB5m1V_7baFE-1" parent="IOOQQ3ExY7Bdt8x3luNd-1" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=default;fontFamily=Helvetica;fontSize=14;connectable=0;allowArrows=0;rotatable=0;" value="2/6" vertex="1">
+          <mxGeometry height="25" width="75" x="725" y="1050" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Dimension" id="y_e9K_0Sx7GtXX4IbqlH">
+    <mxGraphModel dx="1885" dy="1093" grid="0" gridSize="25" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="99Cek0IsD81mEnEvP9jx-0" />
+        <mxCell id="99Cek0IsD81mEnEvP9jx-1" parent="99Cek0IsD81mEnEvP9jx-0" />
+        <mxCell id="99Cek0IsD81mEnEvP9jx-2" parent="99Cek0IsD81mEnEvP9jx-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Information/InfoDistancePP/InfoDistancePP.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Distance Point to Point (IP)" vertex="1">
+          <mxGeometry height="50" width="50" x="450" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="99Cek0IsD81mEnEvP9jx-18" edge="1" parent="99Cek0IsD81mEnEvP9jx-1" style="endArrow=none;html=1;rounded=0;fontSize=24;strokeColor=default;strokeWidth=2;fontFamily=Helvetica;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="425" y="1025" as="sourcePoint" />
+            <mxPoint x="425" y="125" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <object label="Version 1.3.0 | Updated for QCAD 3.28.2" id="99Cek0IsD81mEnEvP9jx-22">
+          <mxCell parent="99Cek0IsD81mEnEvP9jx-1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=default;fontFamily=Helvetica;fontSize=14;connectable=0;allowArrows=0;rotatable=0;" vertex="1">
+            <mxGeometry height="25" width="375" x="50" y="1050" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="99Cek0IsD81mEnEvP9jx-24" parent="99Cek0IsD81mEnEvP9jx-1" style="rounded=0;whiteSpace=wrap;fillColor=#2D427B;rotatable=0;connectable=0;allowArrows=0;strokeColor=none;fontFamily=Helvetica;fontColor=#FFFFFF;textShadow=0;shadow=0;fontSize=41;spacingBottom=0;verticalAlign=middle;" value="QCAD Cheat Sheets: Dimension &amp; Info" vertex="1">
+          <mxGeometry height="100" width="850" as="geometry" />
+        </mxCell>
+        <mxCell id="B_3p1XVznB1kTsZYp7l--0" parent="99Cek0IsD81mEnEvP9jx-1" style="rounded=0;whiteSpace=wrap;html=1;connectable=0;allowArrows=0;resizable=0;rotatable=0;fillColor=#B3B3B3;fontSize=18;align=left;spacingLeft=25;spacingRight=25;fontColor=#000000;" value="Dimension" vertex="1">
+          <mxGeometry height="25" width="350" x="50" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="B_3p1XVznB1kTsZYp7l--1" parent="99Cek0IsD81mEnEvP9jx-1" style="rounded=0;whiteSpace=wrap;html=1;connectable=0;allowArrows=0;resizable=0;rotatable=0;fillColor=#B3B3B3;fontSize=18;align=left;spacingLeft=25;spacingRight=25;fontColor=#000000;" value="Info" vertex="1">
+          <mxGeometry height="25" width="350" x="450" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="tj0zYnQMsAcJ3M6L0dZg-0" parent="99Cek0IsD81mEnEvP9jx-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Draw/Dimension/DimAligned/DimAligned.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Aligned (DA)" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="tj0zYnQMsAcJ3M6L0dZg-1" parent="99Cek0IsD81mEnEvP9jx-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Draw/Dimension/DimHorizontal/DimHorizontal.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Horizontal (DH)" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="tj0zYnQMsAcJ3M6L0dZg-2" parent="99Cek0IsD81mEnEvP9jx-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Draw/Dimension/DimVertical/DimVertical.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Vertical (DV)" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="325" as="geometry" />
+        </mxCell>
+        <mxCell id="tj0zYnQMsAcJ3M6L0dZg-3" parent="99Cek0IsD81mEnEvP9jx-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Draw/Dimension/DimRadial/DimRadial.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Radial (DR)" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="tj0zYnQMsAcJ3M6L0dZg-4" parent="99Cek0IsD81mEnEvP9jx-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Draw/Dimension/DimDiametric/DimDiametric.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Diametric (DD)" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="tj0zYnQMsAcJ3M6L0dZg-5" parent="99Cek0IsD81mEnEvP9jx-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Draw/Dimension/DimAngular/DimAngular.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Angular (DN)" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="tj0zYnQMsAcJ3M6L0dZg-6" parent="99Cek0IsD81mEnEvP9jx-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Draw/Dimension/Leader/Leader.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Leader (DE)" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="425" as="geometry" />
+        </mxCell>
+        <mxCell id="dapNi3MUmGQesVi3RyAs-0" parent="99Cek0IsD81mEnEvP9jx-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Information/InfoAngle/InfoAngle.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Angle (IA)" vertex="1">
+          <mxGeometry height="50" width="50" x="450" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="dapNi3MUmGQesVi3RyAs-1" parent="99Cek0IsD81mEnEvP9jx-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Information/InfoArea/InfoArea.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Polygonal Area (IR)" vertex="1">
+          <mxGeometry height="50" width="50" x="450" y="375" as="geometry" />
+        </mxCell>
+        <mxCell id="dapNi3MUmGQesVi3RyAs-2" parent="99Cek0IsD81mEnEvP9jx-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Information/InfoArcCircleArea/InfoArcCircleArea.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Arc/Circle/Ellipse Area (IC)" vertex="1">
+          <mxGeometry height="50" width="50" x="450" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="vUoHy2aYKfH8mCWrpd3Q-0" edge="1" parent="99Cek0IsD81mEnEvP9jx-1" style="endArrow=none;html=1;rounded=0;fontSize=24;strokeColor=default;strokeWidth=2;fontFamily=Helvetica;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="400" as="sourcePoint" />
+            <mxPoint x="50" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vUoHy2aYKfH8mCWrpd3Q-1" edge="1" parent="99Cek0IsD81mEnEvP9jx-1" style="endArrow=none;html=1;rounded=0;fontSize=24;strokeColor=default;strokeWidth=2;fontFamily=Helvetica;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="500" as="sourcePoint" />
+            <mxPoint x="50" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vUoHy2aYKfH8mCWrpd3Q-2" edge="1" parent="99Cek0IsD81mEnEvP9jx-1" style="endArrow=none;html=1;rounded=0;fontSize=24;strokeColor=default;strokeWidth=2;fontFamily=Helvetica;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="675" as="sourcePoint" />
+            <mxPoint x="50" y="675" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vUoHy2aYKfH8mCWrpd3Q-3" edge="1" parent="99Cek0IsD81mEnEvP9jx-1" style="endArrow=none;html=1;rounded=0;fontSize=24;strokeColor=default;strokeWidth=2;fontFamily=Helvetica;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="800" y="250" as="sourcePoint" />
+            <mxPoint x="450" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vUoHy2aYKfH8mCWrpd3Q-4" edge="1" parent="99Cek0IsD81mEnEvP9jx-1" style="endArrow=none;html=1;rounded=0;fontSize=24;strokeColor=default;strokeWidth=2;fontFamily=Helvetica;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="800" y="350" as="sourcePoint" />
+            <mxPoint x="450" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="atRxFBHRKQHjKdoDJLSU-0" parent="99Cek0IsD81mEnEvP9jx-1" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=default;fontFamily=Helvetica;fontSize=14;connectable=0;allowArrows=0;rotatable=0;" value="© 2026 EvokeMadness CC BY-SA 4.0" vertex="1">
+          <mxGeometry height="25" width="300" x="425" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="atRxFBHRKQHjKdoDJLSU-1" parent="99Cek0IsD81mEnEvP9jx-1" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=default;fontFamily=Helvetica;fontSize=14;connectable=0;allowArrows=0;rotatable=0;" value="3/6" vertex="1">
+          <mxGeometry height="25" width="75" x="725" y="1050" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Modify" id="AKl4oL6j1M1npZqoY40A">
+    <mxGraphModel dx="680" dy="394" grid="0" gridSize="25" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="bWM-UxBc7etChTHLRa95-0" />
+        <mxCell id="bWM-UxBc7etChTHLRa95-1" parent="bWM-UxBc7etChTHLRa95-0" />
+        <mxCell id="bWM-UxBc7etChTHLRa95-2" parent="bWM-UxBc7etChTHLRa95-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Modify/Translate/Translate.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=#FF0000;" value="Move (MV)" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="bWM-UxBc7etChTHLRa95-3" parent="bWM-UxBc7etChTHLRa95-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Modify/Rotate/Rotate.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;fontSize=19;spacingLeft=20;fontFamily=Helvetica;imageBackground=#FFFFFF;imageBorder=#FF0000;" value="Rotate (RO)" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="bWM-UxBc7etChTHLRa95-4" parent="bWM-UxBc7etChTHLRa95-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Modify/Scale/Scale.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;fontSize=19;spacingLeft=20;fontFamily=Helvetica;imageBackground=#FFFFFF;imageBorder=#FF0000;" value="Scale (SZ)" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="bWM-UxBc7etChTHLRa95-5" parent="bWM-UxBc7etChTHLRa95-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Modify/Mirror/Mirror.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;fontSize=19;spacingLeft=20;fontFamily=Helvetica;imageBackground=#FFFFFF;imageBorder=#FF0000;" value="Mirror (MI)" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="bWM-UxBc7etChTHLRa95-6" parent="bWM-UxBc7etChTHLRa95-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Modify/Offset/Offset.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;fontSize=19;spacingLeft=20;fontFamily=Helvetica;imageBackground=#FFFFFF;" value="Offset (OF)&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 255);&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;{Distance} {Number}&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="425" as="geometry" />
+        </mxCell>
+        <mxCell id="bWM-UxBc7etChTHLRa95-7" parent="bWM-UxBc7etChTHLRa95-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Modify/Trim/Trim.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;fontSize=19;spacingLeft=20;fontFamily=Helvetica;imageBackground=#FFFFFF;" value="Trim (RM)" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="bWM-UxBc7etChTHLRa95-8" parent="bWM-UxBc7etChTHLRa95-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Modify/TrimBoth/TrimBoth.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;fontSize=19;spacingLeft=20;fontFamily=Helvetica;imageBackground=#FFFFFF;" value="Trim Both (TM)" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="575" as="geometry" />
+        </mxCell>
+        <mxCell id="bWM-UxBc7etChTHLRa95-9" parent="bWM-UxBc7etChTHLRa95-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Modify/Lengthen/Lengthen.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;fontSize=19;spacingLeft=20;fontFamily=Helvetica;imageBackground=#FFFFFF;" value="Lengthen / Shorten (LE)&lt;br&gt;&lt;font style=&quot;font-size: 14px; color: rgb(0, 0, 255);&quot;&gt;{Amount}&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="bWM-UxBc7etChTHLRa95-10" parent="bWM-UxBc7etChTHLRa95-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Modify/Stretch/Stretch.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;fontSize=19;spacingLeft=20;fontFamily=Helvetica;imageBackground=#FFFFFF;" value="Stretch (SS)" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="725" as="geometry" />
+        </mxCell>
+        <mxCell id="bWM-UxBc7etChTHLRa95-11" parent="bWM-UxBc7etChTHLRa95-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Modify/Divide/Divide.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;fontSize=19;spacingLeft=20;fontFamily=Helvetica;imageBackground=#FFFFFF;" value="Divide (DI)" vertex="1">
+          <mxGeometry height="50" width="50" x="450" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="bWM-UxBc7etChTHLRa95-12" parent="bWM-UxBc7etChTHLRa95-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Modify/BreakOut/BreakOut.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;fontSize=19;spacingLeft=20;labelPosition=right;align=left;fontFamily=Helvetica;imageBackground=#FFFFFF;" value="Break out Segment (D2)" vertex="1">
+          <mxGeometry height="50" width="50" x="450" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="bWM-UxBc7etChTHLRa95-13" parent="bWM-UxBc7etChTHLRa95-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Modify/AutoTrim/AutoTrim.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;fontSize=19;spacingLeft=20;labelPosition=right;align=left;fontFamily=Helvetica;imageBackground=#FFFFFF;" value="Auto Trim (AX)" vertex="1">
+          <mxGeometry height="50" width="50" x="450" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="bWM-UxBc7etChTHLRa95-14" parent="bWM-UxBc7etChTHLRa95-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Modify/Reverse/Reverse.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;fontSize=19;spacingLeft=20;labelPosition=right;align=left;fontFamily=Helvetica;imageBackground=#FFFFFF;imageBorder=#FF0000;" value="Reverse (RV)" vertex="1">
+          <mxGeometry height="50" width="50" x="450" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="bWM-UxBc7etChTHLRa95-15" parent="bWM-UxBc7etChTHLRa95-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Modify/Explode/Explode.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;fontSize=19;spacingLeft=20;labelPosition=right;align=left;fontFamily=Helvetica;imageBackground=#FFFFFF;imageBorder=#FF0000;" value="Explode (XP)" vertex="1">
+          <mxGeometry height="50" width="50" x="450" y="425" as="geometry" />
+        </mxCell>
+        <mxCell id="bWM-UxBc7etChTHLRa95-16" parent="bWM-UxBc7etChTHLRa95-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Modify/DrawOrder/ToFront/ToFront.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;fontSize=19;spacingLeft=20;labelPosition=right;align=left;fontFamily=Helvetica;imageBackground=#FFFFFF;imageBorder=#FF0000;" value="Bring to Front (MF)" vertex="1">
+          <mxGeometry height="50" width="50" x="450" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="bWM-UxBc7etChTHLRa95-17" parent="bWM-UxBc7etChTHLRa95-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Modify/DrawOrder/ToBack/ToBack.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;fontSize=19;spacingLeft=20;labelPosition=right;align=left;fontFamily=Helvetica;imageBackground=#FFFFFF;imageBorder=#FF0000;" value="Send to Back (MB)" vertex="1">
+          <mxGeometry height="50" width="50" x="450" y="625" as="geometry" />
+        </mxCell>
+        <mxCell id="bWM-UxBc7etChTHLRa95-18" edge="1" parent="bWM-UxBc7etChTHLRa95-1" style="endArrow=none;html=1;rounded=0;fontSize=24;strokeColor=default;strokeWidth=2;fontFamily=Helvetica;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="425" y="1025" as="sourcePoint" />
+            <mxPoint x="425" y="125" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bWM-UxBc7etChTHLRa95-19" parent="bWM-UxBc7etChTHLRa95-1" style="swimlane;labelBackgroundColor=none;labelBorderColor=none;fontFamily=Helvetica;fontSize=18;strokeColor=default;fillColor=#B3B3B3;align=center;verticalAlign=middle;html=1;swimlaneFillColor=default;fontStyle=0;collapsible=0;fontColor=#000000;resizable=1;dropTarget=0;strokeWidth=1;" value="Tip" vertex="1">
+          <mxGeometry height="175" width="350" x="450" y="825" as="geometry">
+            <mxRectangle height="25" width="225" x="500" y="225" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bWM-UxBc7etChTHLRa95-21" parent="bWM-UxBc7etChTHLRa95-1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBorderColor=none;sketch=0;fontColor=#B3B3B3;labelPosition=center;verticalLabelPosition=middle;fontSize=72;fontStyle=1;spacingTop=10;spacingLeft=0;spacingBottom=20;spacingRight=20;" value="&lt;font&gt;!&lt;/font&gt;" vertex="1">
+          <mxGeometry height="75" width="50" x="750" y="925" as="geometry" />
+        </mxCell>
+        <object label="Version 1.3.0 | Updated for QCAD 3.28.2" id="bWM-UxBc7etChTHLRa95-22">
+          <mxCell parent="bWM-UxBc7etChTHLRa95-1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=default;fontFamily=Helvetica;fontSize=14;connectable=0;allowArrows=0;rotatable=0;" vertex="1">
+            <mxGeometry height="25" width="375" x="50" y="1050" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="bWM-UxBc7etChTHLRa95-24" parent="bWM-UxBc7etChTHLRa95-1" style="rounded=0;whiteSpace=wrap;fillColor=#2D427B;rotatable=0;connectable=0;allowArrows=0;strokeColor=none;fontFamily=Helvetica;fontColor=#FFFFFF;textShadow=0;shadow=0;fontSize=51;spacingBottom=0;verticalAlign=middle;" value="QCAD Cheat Sheets: Modify" vertex="1">
+          <mxGeometry height="100" width="850" as="geometry" />
+        </mxCell>
+        <mxCell id="bWM-UxBc7etChTHLRa95-25" parent="bWM-UxBc7etChTHLRa95-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Modify/Bevel/Bevel.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;fontSize=19;spacingLeft=20;fontFamily=Helvetica;imageBackground=#FFFFFF;" value="Chamfer / Bevel (CH)&lt;br&gt;&lt;font style=&quot;font-size: 14px; color: rgb(0, 0, 255);&quot;&gt;{Length 1} {Length 2}&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="bWM-UxBc7etChTHLRa95-26" parent="bWM-UxBc7etChTHLRa95-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Modify/Round/Round.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;fontSize=19;spacingLeft=20;fontFamily=Helvetica;imageBackground=#FFFFFF;" value="Round (RN)&lt;br&gt;&lt;font style=&quot;font-size: 14px; color: rgb(0, 0, 255);&quot;&gt;{Radius}&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="875" as="geometry" />
+        </mxCell>
+        <mxCell id="i6aCcpXEWTG0wznZL3c2-0" parent="bWM-UxBc7etChTHLRa95-1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;glass=0;labelBackgroundColor=none;labelBorderColor=none;fontFamily=Helvetica;fontSize=14;fontColor=default;labelPosition=center;verticalLabelPosition=middle;spacingLeft=20;spacingBottom=0;spacingRight=20;spacingTop=5;" value="&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;• Commands styled with a red border require entities to be selected before each use.&lt;br&gt;&lt;br&gt;• Commands with options display their properties in blue. The first option is immediately in focus after the command is invoked.&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="325" x="450" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="eKQVuRUN5joi7iQ72RQI-0" parent="bWM-UxBc7etChTHLRa95-1" style="rounded=0;whiteSpace=wrap;html=1;connectable=0;allowArrows=0;resizable=0;rotatable=0;fillColor=#B3B3B3;fontSize=18;align=left;spacingLeft=25;spacingRight=25;fontColor=#000000;" value="Draw Order" vertex="1">
+          <mxGeometry height="25" width="350" x="450" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="OmVWJIwS9ceKG2tJzYPP-0" parent="bWM-UxBc7etChTHLRa95-1" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=default;fontFamily=Helvetica;fontSize=14;connectable=0;allowArrows=0;rotatable=0;" value="© 2026 EvokeMadness CC BY-SA 4.0" vertex="1">
+          <mxGeometry height="25" width="300" x="425" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="OmVWJIwS9ceKG2tJzYPP-1" parent="bWM-UxBc7etChTHLRa95-1" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=default;fontFamily=Helvetica;fontSize=14;connectable=0;allowArrows=0;rotatable=0;" value="4/6" vertex="1">
+          <mxGeometry height="25" width="75" x="725" y="1050" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Block" id="7wFOGveCCiGCSM633wJ-">
+    <mxGraphModel dx="817" dy="474" grid="0" gridSize="25" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="wOMzzSTKhhd61K5zzqsx-0" />
+        <mxCell id="wOMzzSTKhhd61K5zzqsx-1" parent="wOMzzSTKhhd61K5zzqsx-0" />
+        <mxCell id="wOMzzSTKhhd61K5zzqsx-2" parent="wOMzzSTKhhd61K5zzqsx-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Modify/Explode/Explode.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=#FF0000;" value="Explode (XP)" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="wOMzzSTKhhd61K5zzqsx-3" edge="1" parent="wOMzzSTKhhd61K5zzqsx-1" style="endArrow=none;html=1;rounded=0;fontSize=24;strokeColor=default;strokeWidth=2;fontFamily=Helvetica;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="425" y="1025" as="sourcePoint" />
+            <mxPoint x="425" y="125" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <object label="Version 1.3.0 | Updated for QCAD 3.28.2" id="wOMzzSTKhhd61K5zzqsx-4">
+          <mxCell parent="wOMzzSTKhhd61K5zzqsx-1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=default;fontFamily=Helvetica;fontSize=14;connectable=0;allowArrows=0;rotatable=0;" vertex="1">
+            <mxGeometry height="25" width="375" x="50" y="1050" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="wOMzzSTKhhd61K5zzqsx-6" parent="wOMzzSTKhhd61K5zzqsx-1" style="rounded=0;whiteSpace=wrap;fillColor=#2D427B;rotatable=0;connectable=0;allowArrows=0;strokeColor=none;fontFamily=Helvetica;fontColor=#FFFFFF;textShadow=0;shadow=0;fontSize=51;spacingBottom=0;verticalAlign=middle;" value="QCAD Cheat Sheets: Block" vertex="1">
+          <mxGeometry height="100" width="850" as="geometry" />
+        </mxCell>
+        <mxCell id="wOMzzSTKhhd61K5zzqsx-14" edge="1" parent="wOMzzSTKhhd61K5zzqsx-1" style="endArrow=none;html=1;rounded=0;fontSize=24;strokeColor=default;strokeWidth=2;fontFamily=Helvetica;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="200" as="sourcePoint" />
+            <mxPoint x="50" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-VNmKu_csnbPx6pmrPGL-0" parent="wOMzzSTKhhd61K5zzqsx-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Block/ToggleBlockVisibility/ToggleBlockVisibility.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=#FF0000;" value="Toggle Visibility (BV)" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="-VNmKu_csnbPx6pmrPGL-1" parent="wOMzzSTKhhd61K5zzqsx-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Block/ShowAllBlocks/ShowAllBlocks.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Show All Blocks (BS)" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="-VNmKu_csnbPx6pmrPGL-2" parent="wOMzzSTKhhd61K5zzqsx-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Block/HideAllBlocks/HideAllBlocks.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Hide All Blocks (BH)" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="375" as="geometry" />
+        </mxCell>
+        <mxCell id="-VNmKu_csnbPx6pmrPGL-3" edge="1" parent="wOMzzSTKhhd61K5zzqsx-1" style="endArrow=none;html=1;rounded=0;fontSize=24;strokeColor=default;strokeWidth=2;fontFamily=Helvetica;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="450" as="sourcePoint" />
+            <mxPoint x="50" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-VNmKu_csnbPx6pmrPGL-4" parent="wOMzzSTKhhd61K5zzqsx-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Block/AddBlock/AddBlock.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Add Empty Block (BA)" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="475" as="geometry" />
+        </mxCell>
+        <mxCell id="-VNmKu_csnbPx6pmrPGL-5" parent="wOMzzSTKhhd61K5zzqsx-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Block/CreateBlock/CreateBlock.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=#FF0000;" value="Create Block from Selection (BC)" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="-VNmKu_csnbPx6pmrPGL-6" parent="wOMzzSTKhhd61K5zzqsx-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Block/AddBlock/AddBlock.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Add Layout Block (BL)" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="625" as="geometry" />
+        </mxCell>
+        <mxCell id="-VNmKu_csnbPx6pmrPGL-7" edge="1" parent="wOMzzSTKhhd61K5zzqsx-1" style="endArrow=none;html=1;rounded=0;fontSize=24;strokeColor=default;strokeWidth=2;fontFamily=Helvetica;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="700" as="sourcePoint" />
+            <mxPoint x="50" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-VNmKu_csnbPx6pmrPGL-8" parent="wOMzzSTKhhd61K5zzqsx-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Block/RemoveBlock/RemoveBlock.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=#FF0000;" value="Remove Block (BR)" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="725" as="geometry" />
+        </mxCell>
+        <mxCell id="-VNmKu_csnbPx6pmrPGL-9" parent="wOMzzSTKhhd61K5zzqsx-1" style="html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;fontColor=default;fontStyle=0;fillColor=none;strokeColor=#000000;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Purge Unused Blocks (BP)" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="-VNmKu_csnbPx6pmrPGL-10" parent="wOMzzSTKhhd61K5zzqsx-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Block/RenameBlock/RenameBlock.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=#FF0000;" value="Rename Block (BN)" vertex="1">
+          <mxGeometry height="50" width="50" x="450" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="-VNmKu_csnbPx6pmrPGL-11" parent="wOMzzSTKhhd61K5zzqsx-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Block/EditBlock/EditBlock.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Edit Block (BE)" vertex="1">
+          <mxGeometry height="50" width="50" x="450" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="-VNmKu_csnbPx6pmrPGL-12" parent="wOMzzSTKhhd61K5zzqsx-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Block/EditFromReference/EditFromReference.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Edit Block from Reference (BD)" vertex="1">
+          <mxGeometry height="50" width="50" x="450" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="-VNmKu_csnbPx6pmrPGL-13" parent="wOMzzSTKhhd61K5zzqsx-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Block/EditFromReference/EditFromReference.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Edit Block In-place (BB)" vertex="1">
+          <mxGeometry height="50" width="50" x="450" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="-VNmKu_csnbPx6pmrPGL-14" parent="wOMzzSTKhhd61K5zzqsx-1" style="html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;fontColor=default;fontStyle=0;fillColor=none;strokeColor=#000000;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Duplicate Block (BY)" vertex="1">
+          <mxGeometry height="50" width="50" x="450" y="425" as="geometry" />
+        </mxCell>
+        <mxCell id="-VNmKu_csnbPx6pmrPGL-15" parent="wOMzzSTKhhd61K5zzqsx-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Block/EditMainDrawing/EditMainDrawing.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Return to Main Drawing (EM)" vertex="1">
+          <mxGeometry height="50" width="50" x="450" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="-VNmKu_csnbPx6pmrPGL-16" edge="1" parent="wOMzzSTKhhd61K5zzqsx-1" style="endArrow=none;html=1;rounded=0;fontSize=24;strokeColor=default;strokeWidth=2;fontFamily=Helvetica;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="800" y="575" as="sourcePoint" />
+            <mxPoint x="450" y="575" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-VNmKu_csnbPx6pmrPGL-17" parent="wOMzzSTKhhd61K5zzqsx-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Block/SelectBlockReferences/SelectBlockReferences.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Select Block References (BK)" vertex="1">
+          <mxGeometry height="50" width="50" x="450" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="-VNmKu_csnbPx6pmrPGL-18" parent="wOMzzSTKhhd61K5zzqsx-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Block/DeselectBlockReferences/DeselectBlockReferences.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Deselect Block References (BX)" vertex="1">
+          <mxGeometry height="50" width="50" x="450" y="675" as="geometry" />
+        </mxCell>
+        <mxCell id="-VNmKu_csnbPx6pmrPGL-19" edge="1" parent="wOMzzSTKhhd61K5zzqsx-1" style="endArrow=none;html=1;rounded=0;fontSize=24;strokeColor=default;strokeWidth=2;fontFamily=Helvetica;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="800" y="750" as="sourcePoint" />
+            <mxPoint x="450" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-VNmKu_csnbPx6pmrPGL-20" parent="wOMzzSTKhhd61K5zzqsx-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Block/InsertBlock/InsertBlock.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=#FF0000;" value="Insert Block (BI)" vertex="1">
+          <mxGeometry height="50" width="50" x="450" y="775" as="geometry" />
+        </mxCell>
+        <mxCell id="-VNmKu_csnbPx6pmrPGL-21" parent="wOMzzSTKhhd61K5zzqsx-1" style="html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;fontColor=default;fontStyle=0;fillColor=none;strokeColor=#FF0000;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=#FF0000;" value="Create Library Item (BT)" vertex="1">
+          <mxGeometry height="50" width="50" x="450" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="VMGmkGQ_RBmuz9ItQDVU-0" parent="wOMzzSTKhhd61K5zzqsx-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="None" vertex="1">
+          <mxGeometry height="50" width="50" x="450" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="IZ2aJcv_VFbac7KuoIhu-0" parent="wOMzzSTKhhd61K5zzqsx-1" style="swimlane;labelBackgroundColor=none;labelBorderColor=none;fontFamily=Helvetica;fontSize=18;strokeColor=default;fillColor=#B3B3B3;align=center;verticalAlign=middle;html=1;swimlaneFillColor=default;fontStyle=0;collapsible=0;fontColor=#000000;resizable=1;dropTarget=0;strokeWidth=1;" value="Tip" vertex="1">
+          <mxGeometry height="137.5" width="350" x="50" y="875" as="geometry">
+            <mxRectangle height="25" width="225" x="500" y="225" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IZ2aJcv_VFbac7KuoIhu-1" parent="wOMzzSTKhhd61K5zzqsx-1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;glass=0;labelBackgroundColor=none;labelBorderColor=none;fontFamily=Helvetica;fontSize=14;fontColor=default;labelPosition=center;verticalLabelPosition=middle;spacingLeft=20;spacingBottom=0;spacingRight=20;spacingTop=20;" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;• Commands styled with a red border require entities to be selected before each use.&lt;br&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="112.5" width="325" x="50" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="IZ2aJcv_VFbac7KuoIhu-2" parent="wOMzzSTKhhd61K5zzqsx-1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBorderColor=none;sketch=0;fontColor=#B3B3B3;labelPosition=center;verticalLabelPosition=middle;fontSize=72;fontStyle=1;spacingTop=10;spacingLeft=0;spacingBottom=40;spacingRight=20;" value="&lt;font&gt;!&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="50" x="350" y="962.5" as="geometry" />
+        </mxCell>
+        <mxCell id="M1k_twUDuNDcOgaL4RZJ-0" parent="wOMzzSTKhhd61K5zzqsx-1" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=default;fontFamily=Helvetica;fontSize=14;connectable=0;allowArrows=0;rotatable=0;" value="© 2026 EvokeMadness CC BY-SA 4.0" vertex="1">
+          <mxGeometry height="25" width="300" x="425" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="M1k_twUDuNDcOgaL4RZJ-1" parent="wOMzzSTKhhd61K5zzqsx-1" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=default;fontFamily=Helvetica;fontSize=14;connectable=0;allowArrows=0;rotatable=0;" value="5/6" vertex="1">
+          <mxGeometry height="25" width="75" x="725" y="1050" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Misc" id="eGOxIoTMYzSnXmGIJWF9">
+    <mxGraphModel dx="817" dy="474" grid="0" gridSize="25" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="07T-10C9Gm5hECUufkLX-0" />
+        <mxCell id="07T-10C9Gm5hECUufkLX-1" parent="07T-10C9Gm5hECUufkLX-0" />
+        <mxCell id="07T-10C9Gm5hECUufkLX-2" parent="07T-10C9Gm5hECUufkLX-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Edit/DrawingPreferences/DrawingPreferences.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Drawing Preferences (Ctrl+I)" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="07T-10C9Gm5hECUufkLX-18" edge="1" parent="07T-10C9Gm5hECUufkLX-1" style="endArrow=none;html=1;rounded=0;fontSize=24;strokeColor=default;strokeWidth=2;fontFamily=Helvetica;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="425" y="1025" as="sourcePoint" />
+            <mxPoint x="425" y="125" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <object label="Version 1.3.0 | Updated for QCAD 3.28.2" id="07T-10C9Gm5hECUufkLX-22">
+          <mxCell parent="07T-10C9Gm5hECUufkLX-1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=default;fontFamily=Helvetica;fontSize=14;connectable=0;allowArrows=0;rotatable=0;" vertex="1">
+            <mxGeometry height="25" width="375" x="50" y="1050" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="07T-10C9Gm5hECUufkLX-24" parent="07T-10C9Gm5hECUufkLX-1" style="rounded=0;whiteSpace=wrap;fillColor=#2D427B;rotatable=0;connectable=0;allowArrows=0;strokeColor=none;fontFamily=Helvetica;fontColor=#FFFFFF;textShadow=0;shadow=0;fontSize=51;spacingBottom=0;verticalAlign=middle;" value="QCAD Cheat Sheets: Misc." vertex="1">
+          <mxGeometry height="100" width="850" as="geometry" />
+        </mxCell>
+        <mxCell id="RAeez52F29HGGORsf7Fa-1" parent="07T-10C9Gm5hECUufkLX-1" style="rounded=0;whiteSpace=wrap;html=1;connectable=0;allowArrows=0;resizable=0;rotatable=0;fillColor=#B3B3B3;fontSize=18;align=left;spacingLeft=25;spacingRight=25;fontColor=#000000;" value="Edit" vertex="1">
+          <mxGeometry height="25" width="350" x="50" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="RAeez52F29HGGORsf7Fa-2" parent="07T-10C9Gm5hECUufkLX-1" style="rounded=0;whiteSpace=wrap;html=1;connectable=0;allowArrows=0;resizable=0;rotatable=0;fillColor=#B3B3B3;fontSize=18;align=left;spacingLeft=25;spacingRight=25;fontColor=#000000;" value="View" vertex="1">
+          <mxGeometry height="25" width="350" x="450" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="Ef7uIEkrGveDCYglXgxZ-0" parent="07T-10C9Gm5hECUufkLX-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Projection/IsometricProjection/IsoProject/RotateCCW.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Rotate Counter-Clockwise (F5)" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Ef7uIEkrGveDCYglXgxZ-1" parent="07T-10C9Gm5hECUufkLX-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Projection/IsometricProjection/IsoProject/RotateCW.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Rotate Clockwise (F6)" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="375" as="geometry" />
+        </mxCell>
+        <mxCell id="N1vldRtc--pc3IigXn4o-0" parent="07T-10C9Gm5hECUufkLX-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/View/DraftMode/DraftMode.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Draft Mode (DF)" vertex="1">
+          <mxGeometry height="50" width="50" x="450" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="N1vldRtc--pc3IigXn4o-1" parent="07T-10C9Gm5hECUufkLX-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/View/LinetypeMode/LinetypeMode.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Screen-based Linetypes (NL)" vertex="1">
+          <mxGeometry height="50" width="50" x="450" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="N1vldRtc--pc3IigXn4o-2" parent="07T-10C9Gm5hECUufkLX-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/View/AntialiasingMode/AntialiasingMode.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Anti-aliasing (NT)" vertex="1">
+          <mxGeometry height="50" width="50" x="450" y="325" as="geometry" />
+        </mxCell>
+        <mxCell id="bspZrkSVkHlai4T2MPPe-0" edge="1" parent="07T-10C9Gm5hECUufkLX-1" style="endArrow=none;html=1;rounded=0;fontSize=24;strokeColor=default;strokeWidth=2;fontFamily=Helvetica;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="800" y="400" as="sourcePoint" />
+            <mxPoint x="450" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bspZrkSVkHlai4T2MPPe-1" parent="07T-10C9Gm5hECUufkLX-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/View/ToggleGrid/ToggleGrid.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Grid (GR)" vertex="1">
+          <mxGeometry height="50" width="50" x="450" y="425" as="geometry" />
+        </mxCell>
+        <mxCell id="bspZrkSVkHlai4T2MPPe-2" edge="1" parent="07T-10C9Gm5hECUufkLX-1" style="endArrow=none;html=1;rounded=0;fontSize=24;strokeColor=default;strokeWidth=2;fontFamily=Helvetica;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="800" y="500" as="sourcePoint" />
+            <mxPoint x="450" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bspZrkSVkHlai4T2MPPe-3" parent="07T-10C9Gm5hECUufkLX-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/View/IsometricView/IsometricGridOff/IsometricGridOff.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Isometric Grid Off (JO)" vertex="1">
+          <mxGeometry height="50" width="50" x="450" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="bspZrkSVkHlai4T2MPPe-4" parent="07T-10C9Gm5hECUufkLX-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/View/IsometricView/IsometricGridTop/IsometricGridTop.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Top Projection (JT)" vertex="1">
+          <mxGeometry height="50" width="50" x="450" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="bspZrkSVkHlai4T2MPPe-5" parent="07T-10C9Gm5hECUufkLX-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/View/IsometricView/IsometricGridRight/IsometricGridRight.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Right Projection (JR)" vertex="1">
+          <mxGeometry height="50" width="50" x="450" y="675" as="geometry" />
+        </mxCell>
+        <mxCell id="bspZrkSVkHlai4T2MPPe-6" parent="07T-10C9Gm5hECUufkLX-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/View/IsometricView/IsometricGridLeft/IsometricGridLeft.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Left Projection (JL)" vertex="1">
+          <mxGeometry height="50" width="50" x="450" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="QgLYCS8Ss0SwsQ0R-u7Q-1" parent="07T-10C9Gm5hECUufkLX-1" style="rounded=0;whiteSpace=wrap;html=1;connectable=0;allowArrows=0;resizable=0;rotatable=0;fillColor=#B3B3B3;fontSize=18;align=left;spacingLeft=25;spacingRight=25;fontColor=#000000;" value="Quick Modify" vertex="1">
+          <mxGeometry height="25" width="350" x="50" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="ZovmButkiEVMe-7kpIpn-0" parent="07T-10C9Gm5hECUufkLX-1" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=default;fontFamily=Helvetica;fontSize=14;connectable=0;allowArrows=0;rotatable=0;" value="© 2026 EvokeMadness CC BY-SA 4.0" vertex="1">
+          <mxGeometry height="25" width="300" x="425" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="ZovmButkiEVMe-7kpIpn-1" parent="07T-10C9Gm5hECUufkLX-1" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=default;fontFamily=Helvetica;fontSize=14;connectable=0;allowArrows=0;rotatable=0;" value="6/6" vertex="1">
+          <mxGeometry height="25" width="75" x="725" y="1050" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Snap 1" id="Xe4N0U6ET5p5Kd6DEjww">
+    <mxGraphModel dx="817" dy="474" grid="0" gridSize="25" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="-tAZ7ffLNSPCSSrq23Yg-0" />
+        <mxCell id="-tAZ7ffLNSPCSSrq23Yg-1" parent="-tAZ7ffLNSPCSSrq23Yg-0" />
+        <mxCell id="-tAZ7ffLNSPCSSrq23Yg-2" parent="-tAZ7ffLNSPCSSrq23Yg-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Snap/SnapFree/SnapFree.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Free (SF)" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="-tAZ7ffLNSPCSSrq23Yg-18" edge="1" parent="-tAZ7ffLNSPCSSrq23Yg-1" style="endArrow=none;html=1;rounded=0;fontSize=24;strokeColor=default;strokeWidth=2;fontFamily=Helvetica;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="425" y="1025" as="sourcePoint" />
+            <mxPoint x="425" y="125" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <object label="Version 1.3.0 | Updated for QCAD 3.28.2" id="-tAZ7ffLNSPCSSrq23Yg-22">
+          <mxCell parent="-tAZ7ffLNSPCSSrq23Yg-1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=default;fontFamily=Helvetica;fontSize=14;connectable=0;allowArrows=0;rotatable=0;" vertex="1">
+            <mxGeometry height="25" width="375" x="50" y="1050" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="-tAZ7ffLNSPCSSrq23Yg-24" parent="-tAZ7ffLNSPCSSrq23Yg-1" style="rounded=0;whiteSpace=wrap;fillColor=#2D427B;rotatable=0;connectable=0;allowArrows=0;strokeColor=none;fontFamily=Helvetica;fontColor=#FFFFFF;textShadow=0;shadow=0;fontSize=51;spacingBottom=0;verticalAlign=middle;" value="QCAD Cheat Sheets: Snap" vertex="1">
+          <mxGeometry height="100" width="850" as="geometry" />
+        </mxCell>
+        <mxCell id="0NIdeqH_VvSu8p0P-3Is-0" parent="-tAZ7ffLNSPCSSrq23Yg-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Snap/SnapGrid/SnapGrid.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Grid (SG)" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="0NIdeqH_VvSu8p0P-3Is-1" parent="-tAZ7ffLNSPCSSrq23Yg-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Snap/SnapEnd/SnapEnd.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="End (SE)" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="0NIdeqH_VvSu8p0P-3Is-2" parent="-tAZ7ffLNSPCSSrq23Yg-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Snap/SnapOnEntity/SnapOnEntity.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="On Entity (ST)" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="375" as="geometry" />
+        </mxCell>
+        <mxCell id="0NIdeqH_VvSu8p0P-3Is-3" parent="-tAZ7ffLNSPCSSrq23Yg-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Snap/SnapPerpendicular/SnapPerpendicular.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Perpendicular (SU)" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="0NIdeqH_VvSu8p0P-3Is-4" parent="-tAZ7ffLNSPCSSrq23Yg-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Snap/SnapTangential/SnapTangential.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Tangential (SB)" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="0NIdeqH_VvSu8p0P-3Is-5" parent="-tAZ7ffLNSPCSSrq23Yg-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Snap/SnapCenter/SnapCenter.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Center (SC)" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="0NIdeqH_VvSu8p0P-3Is-6" parent="-tAZ7ffLNSPCSSrq23Yg-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Snap/SnapReference/SnapReference.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Reference (SR)" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="675" as="geometry" />
+        </mxCell>
+        <mxCell id="0NIdeqH_VvSu8p0P-3Is-7" edge="1" parent="-tAZ7ffLNSPCSSrq23Yg-1" style="endArrow=none;html=1;rounded=0;fontSize=24;strokeColor=default;strokeWidth=2;fontFamily=Helvetica;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="275" as="sourcePoint" />
+            <mxPoint x="50" y="275" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0NIdeqH_VvSu8p0P-3Is-12" parent="-tAZ7ffLNSPCSSrq23Yg-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Snap/SnapMiddle/SnapMiddle.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Middle (SM)" vertex="1">
+          <mxGeometry height="50" width="50" x="450" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="0NIdeqH_VvSu8p0P-3Is-13" parent="-tAZ7ffLNSPCSSrq23Yg-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Snap/SnapDistance/SnapDistance.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Distance (SD)" vertex="1">
+          <mxGeometry height="50" width="50" x="450" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="0NIdeqH_VvSu8p0P-3Is-16" parent="-tAZ7ffLNSPCSSrq23Yg-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Snap/SnapIntersection/SnapIntersection.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Intersection (SI)" vertex="1">
+          <mxGeometry height="50" width="50" x="450" y="475" as="geometry" />
+        </mxCell>
+        <mxCell id="0NIdeqH_VvSu8p0P-3Is-17" parent="-tAZ7ffLNSPCSSrq23Yg-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Snap/SnapMiddleManual/SnapMiddleManual.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Middle Manual (SN)" vertex="1">
+          <mxGeometry height="50" width="50" x="450" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="0NIdeqH_VvSu8p0P-3Is-18" parent="-tAZ7ffLNSPCSSrq23Yg-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Snap/SnapDistanceManual/SnapDistanceManual.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Distance Manual (SH)" vertex="1">
+          <mxGeometry height="50" width="50" x="450" y="375" as="geometry" />
+        </mxCell>
+        <mxCell id="0NIdeqH_VvSu8p0P-3Is-19" parent="-tAZ7ffLNSPCSSrq23Yg-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Snap/SnapIntersectionManual/SnapIntersectionManual.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Intersection Manual (SY)" vertex="1">
+          <mxGeometry height="50" width="50" x="450" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="0NIdeqH_VvSu8p0P-3Is-20" edge="1" parent="-tAZ7ffLNSPCSSrq23Yg-1" style="endArrow=none;html=1;rounded=0;fontSize=24;strokeColor=default;strokeWidth=2;fontFamily=Helvetica;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="800" y="450" as="sourcePoint" />
+            <mxPoint x="450" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZIzxdYXvGeoYHetReomR-0" edge="1" parent="-tAZ7ffLNSPCSSrq23Yg-1" style="endArrow=none;html=1;rounded=0;fontSize=24;strokeColor=default;strokeWidth=2;fontFamily=Helvetica;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="800" y="275" as="sourcePoint" />
+            <mxPoint x="450" y="275" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nyOb5akKut23VfhVfi0g-0" parent="-tAZ7ffLNSPCSSrq23Yg-1" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=default;fontFamily=Helvetica;fontSize=14;connectable=0;allowArrows=0;rotatable=0;" value="© 2026 EvokeMadness CC BY-SA 4.0" vertex="1">
+          <mxGeometry height="25" width="300" x="425" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="nyOb5akKut23VfhVfi0g-1" parent="-tAZ7ffLNSPCSSrq23Yg-1" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=default;fontFamily=Helvetica;fontSize=14;connectable=0;allowArrows=0;rotatable=0;" value="1/2" vertex="1">
+          <mxGeometry height="25" width="75" x="725" y="1050" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Snap 2" id="M_N18bq0qfSVRLhX-7yA">
+    <mxGraphModel dx="1885" dy="1093" grid="0" gridSize="25" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="rwEHP9-r-TKf8CnlTP6e-0" />
+        <mxCell id="rwEHP9-r-TKf8CnlTP6e-1" parent="rwEHP9-r-TKf8CnlTP6e-0" />
+        <mxCell id="rwEHP9-r-TKf8CnlTP6e-3" edge="1" parent="rwEHP9-r-TKf8CnlTP6e-1" style="endArrow=none;html=1;rounded=0;fontSize=24;strokeColor=default;strokeWidth=2;fontFamily=Helvetica;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="425" y="1025" as="sourcePoint" />
+            <mxPoint x="425" y="125" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <object label="Version 1.3.0 | Updated for QCAD 3.28.2" id="rwEHP9-r-TKf8CnlTP6e-4">
+          <mxCell parent="rwEHP9-r-TKf8CnlTP6e-1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=default;fontFamily=Helvetica;fontSize=14;connectable=0;allowArrows=0;rotatable=0;" vertex="1">
+            <mxGeometry height="25" width="375" x="50" y="1050" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="rwEHP9-r-TKf8CnlTP6e-6" parent="rwEHP9-r-TKf8CnlTP6e-1" style="rounded=0;whiteSpace=wrap;fillColor=#2D427B;rotatable=0;connectable=0;allowArrows=0;strokeColor=none;fontFamily=Helvetica;fontColor=#FFFFFF;textShadow=0;shadow=0;fontSize=51;spacingBottom=0;verticalAlign=middle;" value="QCAD Cheat Sheets: Snap" vertex="1">
+          <mxGeometry height="100" width="850" as="geometry" />
+        </mxCell>
+        <mxCell id="-cYPpGKjOb3Onr-vd_rw-7" edge="1" parent="rwEHP9-r-TKf8CnlTP6e-1" style="endArrow=none;html=1;rounded=0;fontSize=24;strokeColor=default;strokeWidth=2;fontFamily=Helvetica;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="800" y="500" as="sourcePoint" />
+            <mxPoint x="450" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-cYPpGKjOb3Onr-vd_rw-8" parent="rwEHP9-r-TKf8CnlTP6e-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Snap/RestrictOff/RestrictOff.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Restrictions Off (EN)" vertex="1">
+          <mxGeometry height="50" width="50" x="450" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="-cYPpGKjOb3Onr-vd_rw-9" parent="rwEHP9-r-TKf8CnlTP6e-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Snap/RestrictOrthogonal/RestrictOrthogonal.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Restrict Orthogonally (EO)" vertex="1">
+          <mxGeometry height="50" width="50" x="450" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="-cYPpGKjOb3Onr-vd_rw-10" parent="rwEHP9-r-TKf8CnlTP6e-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Snap/RestrictHorizontal/RestrictHorizontal.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Restrict Horizontally (EH)" vertex="1">
+          <mxGeometry height="50" width="50" x="450" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="-cYPpGKjOb3Onr-vd_rw-11" parent="rwEHP9-r-TKf8CnlTP6e-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Snap/RestrictVertical/RestrictVertical.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Restrict Vertically (EV)" vertex="1">
+          <mxGeometry height="50" width="50" x="450" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="-cYPpGKjOb3Onr-vd_rw-12" parent="rwEHP9-r-TKf8CnlTP6e-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Snap/RestrictAngleLength/RestrictAngleLength.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Restrict Angle or Length (EL)" vertex="1">
+          <mxGeometry height="50" width="50" x="450" y="425" as="geometry" />
+        </mxCell>
+        <mxCell id="-cYPpGKjOb3Onr-vd_rw-13" parent="rwEHP9-r-TKf8CnlTP6e-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Snap/SetRelativeZero/SetRelativeZero.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Set Relative Zero (RZ)" vertex="1">
+          <mxGeometry height="50" width="50" x="450" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="-cYPpGKjOb3Onr-vd_rw-14" parent="rwEHP9-r-TKf8CnlTP6e-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Snap/LockRelativeZero/LockRelativeZero.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Lock Relative Zero (RL)" vertex="1">
+          <mxGeometry height="50" width="50" x="450" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="qHkRczUQj0mT7QKziD59-0" parent="rwEHP9-r-TKf8CnlTP6e-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Snap/SnapAuto/SnapAuto.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Auto (SA)" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="qHkRczUQj0mT7QKziD59-1" edge="1" parent="rwEHP9-r-TKf8CnlTP6e-1" style="endArrow=none;html=1;rounded=0;fontSize=24;strokeColor=default;strokeWidth=2;fontFamily=Helvetica;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="200" as="sourcePoint" />
+            <mxPoint x="50" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qHkRczUQj0mT7QKziD59-2" parent="rwEHP9-r-TKf8CnlTP6e-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Snap/SnapCoordinate/SnapCoordinate.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Coordinate (SX)" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="qHkRczUQj0mT7QKziD59-3" parent="rwEHP9-r-TKf8CnlTP6e-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Snap/SnapCoordinatePolar/SnapCoordinatePolar.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Polar Coordinate (SO)" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="qHkRczUQj0mT7QKziD59-4" parent="rwEHP9-r-TKf8CnlTP6e-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Snap/SnapXManual/SnapXManual.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="X/Y from Points (.X)" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="qHkRczUQj0mT7QKziD59-5" parent="rwEHP9-r-TKf8CnlTP6e-1" style="shape=image;html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=https://raw.githubusercontent.com/qcad/qcad/master/scripts/Snap/SnapYManual/SnapYManual.svg;fontColor=default;fontStyle=0;fillColor=#A8DADC;strokeColor=#457B9D;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Y/X from Points (.Y)" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="475" as="geometry" />
+        </mxCell>
+        <mxCell id="qHkRczUQj0mT7QKziD59-6" edge="1" parent="rwEHP9-r-TKf8CnlTP6e-1" style="endArrow=none;html=1;rounded=0;fontSize=24;strokeColor=default;strokeWidth=2;fontFamily=Helvetica;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="375" as="sourcePoint" />
+            <mxPoint x="50" y="375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ECV8hFk_7vP3eN8UOr7m-0" edge="1" parent="rwEHP9-r-TKf8CnlTP6e-1" style="endArrow=none;html=1;rounded=0;fontSize=24;strokeColor=default;strokeWidth=2;fontFamily=Helvetica;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="550" as="sourcePoint" />
+            <mxPoint x="50" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ECV8hFk_7vP3eN8UOr7m-1" parent="rwEHP9-r-TKf8CnlTP6e-1" style="html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;fontColor=default;fontStyle=0;fillColor=none;strokeColor=#000000;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Center of Selection (SK)" vertex="1">
+          <mxGeometry height="50" width="50" x="50" y="575" as="geometry" />
+        </mxCell>
+        <mxCell id="ECV8hFk_7vP3eN8UOr7m-2" edge="1" parent="rwEHP9-r-TKf8CnlTP6e-1" style="endArrow=none;html=1;rounded=0;fontSize=24;strokeColor=default;strokeWidth=2;fontFamily=Helvetica;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="800" y="675" as="sourcePoint" />
+            <mxPoint x="450" y="675" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ECV8hFk_7vP3eN8UOr7m-3" parent="rwEHP9-r-TKf8CnlTP6e-1" style="html=1;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;fontColor=default;fontStyle=0;fillColor=none;strokeColor=#000000;labelPosition=right;align=left;spacingLeft=20;fontSize=19;fontFamily=Helvetica;imageBackground=#FFFFFF;fillStyle=auto;imageBorder=none;" value="Lock Snap (SQ)" vertex="1">
+          <mxGeometry height="50" width="50" x="450" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="wVvwlI7ZAb4rG2QeiEmZ-0" parent="rwEHP9-r-TKf8CnlTP6e-1" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=default;fontFamily=Helvetica;fontSize=14;connectable=0;allowArrows=0;rotatable=0;" value="© 2026 EvokeMadness CC BY-SA 4.0" vertex="1">
+          <mxGeometry height="25" width="300" x="425" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="wVvwlI7ZAb4rG2QeiEmZ-1" parent="rwEHP9-r-TKf8CnlTP6e-1" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=default;fontFamily=Helvetica;fontSize=14;connectable=0;allowArrows=0;rotatable=0;" value="2/2" vertex="1">
+          <mxGeometry height="25" width="75" x="725" y="1050" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
